@@ -14,6 +14,5 @@ class HelloWorldController extends \FacturaScripts\Core\Base\Controller
     public function privateCore(&$response, $user, $permissions) {
         parent::privateCore($response, $user, $permissions);
         /// tu código aquí
-        #echo "hola mundo";
     }
 }
